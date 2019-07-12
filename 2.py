@@ -1,4 +1,4 @@
-s=int(input("Enter a number:"))
+s=int(input(""))
 if(s%2==0):
   print("Even")
 else:

@@ -1,5 +1,5 @@
 N=input()
 k=input()
 k=int(k)
-s=N**l
+s=N**k
 print(a)

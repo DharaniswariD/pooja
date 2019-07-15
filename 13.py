@@ -1,9 +1,10 @@
 num=int(input())
-if(num>1):
-for i in range(2,num):
-if(num%i==0):
-  print("no")
-  break
-else :
+count=0
+for i in range(1,num+1):
+  if(num%i==0):
+      count+=1
+if(count==2):
   print("yes")
+else :
+  print("no")
     

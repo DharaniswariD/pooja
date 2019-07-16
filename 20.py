@@ -1,0 +1,13 @@
+D=int(input())
+S=[]
+p=1*D
+S.append(p)
+q=2*D
+S.append(q)
+r=2*D
+S.append(r)
+s=2*D
+S.append(s)
+t=2*D
+S.append(t)
+print(*S)
